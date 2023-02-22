@@ -1,7 +1,7 @@
 from aiogram import types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BOT_TOKEN = '5940652305:AAFHtejFoAVa3NOiQkNdmQxrAb2dgZvWJxQ'
+BOT_TOKEN = '-'
 """@transport_innovations_bot"""
 kb_mm = ['Заполнить заявку', 'Справка']
 MainMenu = types.ReplyKeyboardMarkup(resize_keyboard=True).add(*kb_mm)
